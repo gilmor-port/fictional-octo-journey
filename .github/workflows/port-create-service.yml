@@ -26,6 +26,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up Git user
+        run: |
+          git config --global user.email "gilm@port.io"
+          git config --global user.name "Gil Mor"
+
       - name: Create a log message
         uses: port-labs/port-github-action@v1
         with:
