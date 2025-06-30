@@ -20,7 +20,7 @@ jobs:
   scaffold-service:
     runs-on: ubuntu-latest
     env:
-      ORG_NAME: Coolest Org Ever
+      ORG_NAME: gilmor-port
       PORT_RUN_ID: ${{ fromJson(inputs.port_context).runId }}
 
     steps:
