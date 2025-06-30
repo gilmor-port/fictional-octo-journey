@@ -43,6 +43,11 @@ jobs:
 
       - name: Create GitHub Repository
         uses: port-labs/cookiecutter-gha@v1.1.1
+        env: 
+          GIT_AUTHOR_NAME: "Gil Mor"
+          GIT_AUTHOR_EMAIL: "gilm@port.io"
+          GIT_COMMITTER_NAME: "Gil Mor"
+          GIT_COMMITTER_EMAIL: "gilm@port.io"
         with:
           portClientId: ${{ secrets.PORT_CLIENT_ID }}
           portClientSecret: ${{ secrets.PORT_CLIENT_SECRET }}
