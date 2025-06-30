@@ -1,5 +1,3 @@
-# Control Plane Demo
+# Scaffoled a new service demo
 
-This repository is a template repository that contains `GitHub Workflows` for integrating Port and your K8S CRDs. 
-
-Please follow [This Guide](https://docs.getport.io/guides-and-tutorials/manage-resources-using-k8s-crds)
+This repository is a repository that contains `GitHub Workflows` for integrating Port and github
